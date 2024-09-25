@@ -36,8 +36,9 @@ class programmer :  employee
     programmer(int inpId)
     {
         id=inpId;
+        cout<<id;
     }
-    int languageCode = 9;
+    
 };
 
 int main()

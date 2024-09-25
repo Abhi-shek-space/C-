@@ -15,25 +15,20 @@ class base
 {
 protected:
     int a;
+
+private:
     int b;
 
-public:
-    int c;
-    int setData(int x, int y)
-    {
-        a = x;
-        b = y;
-    }
 };
 
-class derived : base
+class derived : public base
 {
 
+    
 };
 
-int
-main()
+int main()
 {
-
+    
     return 0;
 }
