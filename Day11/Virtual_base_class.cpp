@@ -1,8 +1,8 @@
 /*Virtual base class 
-class A has a member int a and class B and C inherits class A
-therefore the have access to int a so if we make another Class D which inherits class B and C
-So there a problem occurs(ambiguity) which is Class D have access to two int a of class B and C.
-To resolve this problem we have virtual base class A which ensures it carries one copy of int a(data member) .
+class A has a member 'int a' and class B and C inherits class A
+therefore they have access to 'int a' so if we make another Class D which inherits class B and C
+So there a problem occurs(ambiguity) which is Class D have access to two 'int a' of class B and C.
+To resolve this problem we have virtual base class A which ensures it carries one copy of 'int a'(data member) .
 */
 #include <iostream>
     
