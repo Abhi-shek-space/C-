@@ -33,7 +33,7 @@ class Base2
 };
 
 
-class Derived :public Base2,public Base1//Here if you swap base 1 and 2 the out will be different
+class Derived :public Base2,public Base1//Here if you swap base 1 and 2 the output will be different
 {
     int derived1,derived2;
     public:
